@@ -1,0 +1,303 @@
+
+/***** BASE STYLES *****/
+
+* {
+margin: 0;
+padding: 0;
+}
+
+@font-face {
+  font-family: 'sweet-sans-pro-regular';
+  font-style: normal;
+  font-weight: 400;
+  color:#000000;
+  src: url('../fonts/sweet-sans-pro-cufonfonts/SweetSansProRegular.otf') format('opentype');
+}
+
+  @font-face {
+    font-family: 'sweet-sans-pro-italic';
+    font-style: normal;
+    font-weight: 400;
+    color:#000000;
+    src: url('../fonts/sweet-sans-pro-cufonfonts/SweetSansProItalic.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'sweet-sans-pro-bold';
+    font-style: normal;
+    font-weight: 400;
+    color:#000000;
+    src: url('../fonts/sweet-sans-pro-cufonfonts/SweetSansProBold.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'audrey-normal';
+    font-style: normal;
+    font-weight: 400;
+    color:#000000;
+    src: url('../fonts/audrey/Audrey-Normal.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'aurelie-smith-script';
+    font-style: normal;
+    color: #000000;
+    src:url('../fonts/aurelie-smith/aurelie-smith-script.otf') format('opentype');
+  }
+
+body {
+  font-family: 'sweet-sans-pro-regular';
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+#work {
+  height: 1450px;
+}
+
+#about {
+  height: 650px;
+}
+
+#contact {
+  height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+h1 {
+  font-family: 'aurelie-smith-script';
+  font-size: 80px;
+  font-weight: lighter;
+  color: #F0D8C6;
+  text-align: left;
+ }
+
+h2 {
+  font-family: 'audrey-normal';
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 8px;
+  word-spacing: 6px;
+  text-align: left;
+  padding-top: 450px;
+  padding-left: 50px;
+  margin-bottom: 2px;
+  }
+
+h3, .link-headers {
+  font-family: 'sweet-sans-pro-bold';
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 4px;
+  word-spacing: 2px;
+  }
+
+h4
+  { font-family: 'sweet-sans-pro-bold';
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin-bottom: 30px;
+  }
+
+p em {
+  font-family: 'aurelie-smith-script';
+  font-size: 40px;
+  }
+
+p strong {
+  font-family: 'sweet-sans-pro-bold';
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+}
+
+#email-link a {
+  font-family: 'sweet-sans-pro-regular';
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background: url('../img/jess-bailey-Bg3qkPDpopY-unsplash_sepia_2.png') no-repeat;
+    background-size: cover;
+}
+
+#heading {
+  height: 800px;
+  padding-left: 50px;
+  display: inline-block;
+}
+
+#overlay {
+  position: absolute;
+  top: 355px;
+  left: 80px;
+  z-index: 1000;
+}
+
+.my-titles {
+  font-family: 'sweet-sans-pro-regular';
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-left: 50px;
+  margin-top: 5px;
+}
+
+/***** WORK *****/
+
+#work .full-width {
+  padding: 40px 0;
+}
+
+#portfolio-header {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.project {
+  padding-bottom: 40px;
+  overflow: auto;
+}
+
+.image {
+  padding-top: 10px;
+  margin-right: 50px;
+  float: left;
+  width: 550px;
+  height: 350px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.skills {
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.link-headers {
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.description {
+  margin-top: 30px;
+}
+
+/***** ABOUT *****/
+
+#about {
+    background-color: #F9F5ED;
+}
+
+#about .full-width {
+    padding: 40px 0;
+}
+
+#about h3 {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+#about img {
+  height: 350px;
+  padding-left: 100px;
+}
+
+#about p {
+  margin-top: -10px;
+  padding-right: 20px;
+}
+#about .handwriting {
+  margin-top: 20px;
+  padding-right: 20px;
+}
+
+#logo {
+  width: 60px;
+  height: 55px;
+  background: url(../img/angela-logo.png) no-repeat;
+  margin-top: 40px;
+}
+
+/***** CONTACT *****/
+
+
+#contact {
+    background-color: #F0D8C6;
+    margin: 0 auto;
+    clear: both;
+}
+
+#contact .full-width {
+  padding-top: 40px;
+}
+
+#contact h3 {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.third-width {
+  text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    margin: 0 25px;
+}
+
+#copyright {
+  text-align: center;
+  padding-top: 95px;
+  padding-bottom: 10px;
+  clear: both;
+  font-family: 'sweet-sans-pro-bold';
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
